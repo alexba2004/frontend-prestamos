@@ -86,7 +86,7 @@ const Navbar = () => {
             fontSize={50}
             fontWeight="bold"
             textTransform="capitalize"
-            color={colors.orange[500]}
+            color={colors.blueAccent[500]}
           >
             Préstamos
           </Typography>

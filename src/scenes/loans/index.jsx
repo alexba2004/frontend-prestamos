@@ -154,9 +154,9 @@ const Loans = () => {
         height="75vh"
         sx={{
           '& .MuiDataGrid-root': { border: 'none' },
-          '& .MuiDataGrid-columnHeaders': { backgroundColor: colors.orange[500] },
+          '& .MuiDataGrid-columnHeaders': { backgroundColor: colors.blueAccent[500] },
           '& .MuiDataGrid-virtualScroller': { backgroundColor: colors.primary[400] },
-          '& .MuiDataGrid-footerContainer': { backgroundColor: colors.orange[500] },
+          '& .MuiDataGrid-footerContainer': { backgroundColor: colors.blueAccent[500] },
         }}
       >
         <DataGrid

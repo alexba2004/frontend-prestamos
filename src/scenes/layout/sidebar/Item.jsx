@@ -10,7 +10,7 @@ const Item = ({ title, path, icon }) => {
       to={path}
       icon={icon}
       rootStyles={{
-        color: path === location.pathname && "#ff6600",
+        color: path === location.pathname && "#f16600",
       }}
     >
       {title}
