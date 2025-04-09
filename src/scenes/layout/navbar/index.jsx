@@ -107,12 +107,6 @@ const Navbar = () => {
           cancelText="Cancelar"
         />
 
-
-
-        <IconButton onClick={() => setModalOpen(true)}>
-          <SettingsOutlined />
-        </IconButton>
-
         <IconButton onClick={() => setConfirmOpen(true)}>
           <ExitToApp />
         </IconButton>
