@@ -107,9 +107,7 @@ const Navbar = () => {
           cancelText="Cancelar"
         />
 
-        <IconButton onClick={colorMode.toggleColorMode}>
-          {theme.palette.mode === 'dark' ? <LightModeOutlined /> : <DarkModeOutlined />}
-        </IconButton>
+
 
         <IconButton onClick={() => setModalOpen(true)}>
           <SettingsOutlined />
