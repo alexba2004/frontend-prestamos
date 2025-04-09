@@ -147,27 +147,6 @@ const Loans = () => {
           display="flex"
           gap="10px"
         >
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={() => setOpenPreview(true)}
-          >
-            Vista Previa
-          </Button>
-          <PDFDownloadLink
-            document={<LoanReportPDF loans={loans} />}
-            fileName="reporte_prestamos.pdf"
-          >
-            {({ loading }) => (
-              <Button
-                variant="contained"
-                color="primary"
-                disabled={loading}
-              >
-                {loading ? 'Generando PDF...' : 'Descargar Reporte'}
-              </Button>
-            )}
-          </PDFDownloadLink>
         </Box>
       </Box>
       <Box
